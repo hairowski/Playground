@@ -32,11 +32,12 @@
       border-radius: 20px;
     }
     ul {
-      padding: 10px;
+      padding: 5px;
       background: rgba(0,0,0,0.5);
+      height:40px;
     }
     li {
-      display: inline;
+      display: inline-block;
       padding: 0px 10px 0px 10px;
     }
     article {
@@ -54,22 +55,42 @@
         display: block;
       }
     }
+    li.smiley {float:left;padding:0;margin:0;}
+    li.smiley img {width:40px;border: solid 0px #ABC;display:inline;margin:0;}
+    img#logo {max-width:80%;}
   </style>
 </head>
 <body>
   <header>
-    <img src="/assets/anna.png">
-    <h1>Obrador Dentista</h1>
+    <img id="logo" src="logo_blanco.png">    
     <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Best Poems</a></li>
-      <li><a href="#">Worst Poems</a></li>
-    </ul>
-    <p>Hi! I'm Johnny, a NYC-based marketer. Say hello!</p>    
+      <li class="smiley"><img src="logo_smiley.png"></li>
+      <li><a href="#">Filosofia</a></li>
+      <li><a href="#">Tratamientos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>    
   </header>
+  <p>Hi! I'm Johnny, a NYC-based marketer. Say hello!</p>    
+   <article>
+    <h2>VHS umami pop-up trust fund</h2>
+    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <button>Like</button>
+  </article>
+   <article>
+    <h2>VHS umami pop-up trust fund</h2>
+    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <button>Like</button>
+  </article>
    <article>
     <h2>VHS umami pop-up trust fund</h2>
     <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
     <button>Like</button>
   </article>
 </body>
+
+<!-- 
+
++ my.impress.ly 
++ 
+
+-->
